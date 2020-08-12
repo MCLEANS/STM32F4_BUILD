@@ -22,7 +22,7 @@ ST_FLASH = st-flash
 
 # specify compiler flags
 CFLAGS  = -g -O2 -Wall
-CFLAGS += -T  STM32F417IG_FLASH.ld 
+CFLAGS += -T  STM32F417IG_FLASH.ld -specs=nano.specs -specs=nosys.specs
 CFLAGS += -mlittle-endian -mthumb -mcpu=cortex-m4 -mthumb-interwork
 CFLAGS += -mfloat-abi=soft -mfpu=fpv4-sp-d16
 CFLAGS += -DSTM32F40_41xxx
