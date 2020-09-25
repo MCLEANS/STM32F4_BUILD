@@ -2,6 +2,7 @@
 # list of source files
 #CXX SOURCE_FILES
 CXX_SOURCES = main.cpp
+CXX_SOURCES += clockconfig.cpp
 
 #C SOURCE FILES
 #SOURCES  = main.c
